@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author hwangminju
+ *
+ */
+module myJava {
+}
