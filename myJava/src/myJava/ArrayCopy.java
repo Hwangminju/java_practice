@@ -44,8 +44,10 @@ public class ArrayCopy {
 		
 		int[] new_arr = (int[])old_arr.clone();
 		
-		for (int i = 0; i < new_arr.length; i++) {
-			System.out.print(new_arr[i] + " ");
+		new_arr[4] = 7;
+		
+		for (int i = 0; i < old_arr.length; i++) {
+			System.out.print(old_arr[i] + " ");
 		}
 		System.out.println();
 	}
